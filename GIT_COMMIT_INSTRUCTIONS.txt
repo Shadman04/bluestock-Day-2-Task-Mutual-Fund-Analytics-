@@ -1,0 +1,7 @@
+Run from the project root in PowerShell:
+
+git add data/processed bluestock_mf.db schema.sql queries.sql data_dictionary.md day2_pipeline.py requirements.txt reports README.md
+git commit -m "Day 2: Cleaned data + SQLite DB loaded"
+git push origin main
+
+Repository: https://github.com/Shadman04/bluestock-week-2
