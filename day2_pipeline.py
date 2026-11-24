@@ -236,7 +236,7 @@ GROUP BY h.amfi_code,f.scheme_name,h.sector ORDER BY h.amfi_code,sector_weight_p
 -- 10. Latest AUM by fund house
 SELECT a.fund_house, a.aum_crore, d.full_date
 FROM fact_aum a JOIN dim_date d USING(date_id)
-WHERE d.full_date=(SELECT MAX(full_date) FROM dim_date)
+WHERE d.date_id=(SELECT MAX(date_id) FROM fact_aum)
 ORDER BY a.aum_crore DESC;
 '''
 (ROOT/'queries.sql').write_text(queries,encoding='utf-8')
