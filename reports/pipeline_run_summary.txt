@@ -1,0 +1,78 @@
+{
+  "cleaned_files": {
+    "fund_master": 40,
+    "nav_history": 3211,
+    "aum_by_fund_house": 90,
+    "monthly_sip_inflows": 48,
+    "category_inflows": 144,
+    "industry_folio_count": 21,
+    "scheme_performance": 40,
+    "investor_transactions": 32778,
+    "portfolio_holdings": 322,
+    "benchmark_indices": 8050
+  },
+  "counts": {
+    "fund_master": {
+      "cleaned_csv_rows": 40,
+      "sqlite_staging_rows": 40
+    },
+    "nav_history": {
+      "cleaned_csv_rows": 3211,
+      "sqlite_staging_rows": 3211
+    },
+    "aum_by_fund_house": {
+      "cleaned_csv_rows": 90,
+      "sqlite_staging_rows": 90
+    },
+    "monthly_sip_inflows": {
+      "cleaned_csv_rows": 48,
+      "sqlite_staging_rows": 48
+    },
+    "category_inflows": {
+      "cleaned_csv_rows": 144,
+      "sqlite_staging_rows": 144
+    },
+    "industry_folio_count": {
+      "cleaned_csv_rows": 21,
+      "sqlite_staging_rows": 21
+    },
+    "scheme_performance": {
+      "cleaned_csv_rows": 40,
+      "sqlite_staging_rows": 40
+    },
+    "investor_transactions": {
+      "cleaned_csv_rows": 32778,
+      "sqlite_staging_rows": 32778
+    },
+    "portfolio_holdings": {
+      "cleaned_csv_rows": 322,
+      "sqlite_staging_rows": 322
+    },
+    "benchmark_indices": {
+      "cleaned_csv_rows": 8050,
+      "sqlite_staging_rows": 8050
+    },
+    "dim_fund": {
+      "rows": 40
+    },
+    "dim_date": {
+      "rows": 3422
+    },
+    "fact_nav": {
+      "rows": 3211,
+      "source_clean_rows": 3211
+    },
+    "fact_transactions": {
+      "rows": 32778,
+      "source_clean_rows": 32778
+    },
+    "fact_performance": {
+      "rows": 40,
+      "source_clean_rows": 40
+    },
+    "fact_aum": {
+      "rows": 90,
+      "source_clean_rows": 90
+    }
+  }
+}
